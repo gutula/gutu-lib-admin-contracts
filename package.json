@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/admin-contracts run build",
-    "typecheck": "bun --cwd framework/libraries/admin-contracts run typecheck",
-    "lint": "bun --cwd framework/libraries/admin-contracts run lint",
-    "test": "bun --cwd framework/libraries/admin-contracts run test",
-    "test:unit": "bun --cwd framework/libraries/admin-contracts run test:unit",
+    "build": "bun run --cwd framework/libraries/admin-contracts build",
+    "typecheck": "bun run --cwd framework/libraries/admin-contracts typecheck",
+    "lint": "bun run --cwd framework/libraries/admin-contracts lint",
+    "test": "bun run --cwd framework/libraries/admin-contracts test",
+    "test:unit": "bun run --cwd framework/libraries/admin-contracts test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

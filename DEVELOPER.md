@@ -35,6 +35,7 @@ Defines the shared admin registry, access rules, and legacy adapters that keep t
 | Package ID | `admin-contracts` |
 | Display Name | Admin Contracts |
 | Import Name | `@platform/admin-contracts` |
+| Canonical Namespace Target | `@gutu/admin-contracts` |
 | Version | `0.1.0` |
 | UI Surface | Mixed runtime helpers |
 | Consumption Model | Imports + typed UI primitives |
@@ -48,6 +49,7 @@ Defines the shared admin registry, access rules, and legacy adapters that keep t
 | Dev Dependencies | None |
 | React Runtime | Yes |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/admin-contracts` |
 
 ### Dependency interpretation
 

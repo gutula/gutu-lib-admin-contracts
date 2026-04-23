@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-admin-contracts",
   "packageId": "admin-contracts",
   "displayName": "Admin Contracts",
+  "packageCount": 1,
   "group": "Admin Experience",
   "maturity": "Hardened",
   "description": "Governed admin-desk contracts, registries, access helpers, and legacy adapters.",

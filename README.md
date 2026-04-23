@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `admin-contracts` |
 | Import Name | `@platform/admin-contracts` |
+| Canonical Namespace Target | `@gutu/admin-contracts` |
 | UI Surface | Mixed runtime helpers |
 | Consumption Model | Imports + typed UI primitives |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/admin-contracts` |
+| Canonical Namespace Target | `@gutu/admin-contracts` |
+| Legacy Compatibility IDs | `@platform/admin-contracts` |
 | Direct Dependencies | `@platform/ui-shell`, `react` |
 | Peer Dependencies | None |
 | React Runtime | Yes |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/admin-contracts` as the legacy compatibility package id while the migration to `@gutu/admin-contracts` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 
